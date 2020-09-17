@@ -19,17 +19,9 @@
         }
 
         .bg-image {
-            /* The image used */
+            
             background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80.jpg");
-
-            /* Add the blur effect */
-            filter: blur(8px);
-            -webkit-filter: blur(8px);
-
-            /* Full height */
             height: 100%;
-
-            /* Center and scale the image nicely */
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -78,7 +70,8 @@
                     onclick="window.location.href = '/User/SendTo/{{result.name}}';">
                     <i class="icon user"></i>
                     <div class="three wide column">
-                        <h4>{{result.name}}</h4>
+                        <h3>{{result.name}}</h3>
+                        <h4> Current Credits:-{{result.Account_balance}}</h4>
                     </div>
                 </button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                 <br>

@@ -1,13 +1,16 @@
 # Credit-Management-App
-Project for The Internship at The Spark's Foundation . A webpage which monitors the credit transfer between diiferent people and thus updates their respective credits upon transfer of credits.
+Project for The Internship at The Spark's Foundation . 
+<br>
+A webpage which monitors the credit transfer between diiferent people and thus updates their respective credits upon transfer of credits.
 
-<br>
-Project Created for Internship Under The Sparks Foundation
-<br>
+Front End: HTML,CSS,JAVASCRIPT
+Back End: MongoDb,NodeJs
+
+
 To start the WebApp
 <br>
-<li>clone the project
+github clone 
 <br>
-<li>npm install
+npm install
 <br>
-<li>npm starts
+npm start

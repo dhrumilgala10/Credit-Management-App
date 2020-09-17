@@ -31,7 +31,7 @@
 
 
     .bg-text {
-      color:lightskyblue;
+      color:white;
       font-weight: bold;
       border: 3px solid lightskyblue;
       position: absolute;
@@ -68,27 +68,27 @@
     <button onclick="window.location.href = 'http://localhost:4000/User/{{results.name}}/MoneyTransfer';" style="text-decoration:none">SEND CREDITS</button> --}}
   <div class="bg-text">
     <div id="1"></div>>
-    <h1 align="center" id="1"><i class="user icon"></i> USER NAME</h1>
+    <h1 align="center" id="1"><i class="user icon"></i> USER DETAILS</h1>
     <div class="ui centered card">
       <div class="content">
         <div class="header">{{results.name}} <i class="user icon"></i></div>
       </div>
       <div class="content">
-        <h4 class="ui sub header">User Details</h4>
+       
         <div class="ui small feed" style="color: black;">
          
 
           Email ID : {{results.Email_id}}
           <br>
           <br>
-           FatherName : {{results.FatherName}}
+           Father's Name : {{results.FatherName}}
           <br>
           <br>
-          Credits available <i class="bitcoin icon"></i> : {{results.Account_balance}}
+          Credits left </i> : {{results.Account_balance}}
         </div>
       </div>
       <div class="extra content">
-        <button  onclick="window.location.href = '/User/{{results.name}}/MoneyTransfer';">Send
+        <button  onclick="window.location.href = '/User/{{results.name}}/MoneyTransfer';">Transfer
           Credits</button>
       </div>
     </div>

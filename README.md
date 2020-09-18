@@ -8,8 +8,7 @@ Front End: HTML,CSS,JAVASCRIPT
 <br>
 Back End: MongoDb,NodeJs
 
-<br>
-Code Link:https://github.com/dhrumilgala10/Credit-Management-App
+
 <br>
 To start the Project
 <br>
